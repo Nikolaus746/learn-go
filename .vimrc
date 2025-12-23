@@ -6,8 +6,10 @@ call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }   " Go
 Plug 'jiangmiao/auto-pairs'                           " Автоскобки
 Plug 'preservim/nerdtree'                             " Дерево проекта
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'sheerun/vim-polyglot'                           " Подсветка языков
 Plug 'dense-analysis/ale'                             " Ошибки / опечатки
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 " ================= БАЗОВЫЕ НАСТРОЙКИ =================
